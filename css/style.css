@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+/* Estilo del cursor personalizado */
+.cursor {
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* Animación del click del cursor personalizado */
+@keyframes cursorAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+/* Estilo del cursor personalizado cuando se realiza un click */
+.cursor-click {
+   animation: cursorAnimation .5s forwards;
+   border: .5px solid rgb(171, 171, 171);
+}
+#inicio {
+    background-color: rgb(27, 27, 27);
+}
+
+  
+#titulo-h1 {
+   
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+#titulo-h4 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#canvas-col {
+    background-color: beige;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  .social-network a.icoGithub:hover {
+    background-color: #3f3f3f;
+  }
+  
+
+  .social-network a.icoLinkedin:hover i,
+  .social-network a.icoGithub:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle i {
+    color: #474747;
+  }
+  
+  .social-network a {
+    background-color: #dfdfdf;
+  }
